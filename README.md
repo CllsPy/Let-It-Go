@@ -19,6 +19,7 @@
  
 
 ## Next Steps
+- [CRUD with Go](https://medium.com/baixada-nerd/criando-um-crud-simples-em-go-3640d3618a67)
 
 ## References
 - Como aprender
