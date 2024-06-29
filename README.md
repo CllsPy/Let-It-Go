@@ -1,6 +1,6 @@
 ## Performance Goals
 
-- Ser capaz de compreender a sintaxe o suficiente para implementar as operações
+- Ser capaz de compreender a sintaxe o suficiente para implementar modelos de machine learning e redes neurais.
 
 ## Project Goals
 
