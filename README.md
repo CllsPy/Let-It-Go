@@ -8,7 +8,7 @@
 
 **Curriculum**: Framework semelhante ao `statsmodels`, mas em Go
 
-**Timeframe**: 02 de Julho até 9 de Julho
+**Timeframe**: 02 de Julho de 2024 -  9 de Julho de 2024
 
 ## Project Milestones
 
