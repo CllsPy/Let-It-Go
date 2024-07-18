@@ -1,53 +1,52 @@
-## Introdução
-**Ray Tracing** é um algorítimo para criar gráficos realistas.
+## Introduction
+**Ray Tracing** is an algorithm used to create realistic graphics.
 
 ## Sub-problem No. 1
-Qualquer Ray Tracing algorítimo requer a representação de objetos em um espaço 3D.
+Any Ray Tracing algorithm requires the representation of objects in a 3D space.
 
-Um vetor é um segmento de reta que vai do ponto A para o ponto B em um plano 2D ou 3D.
+A vector is a line segment that extends from point A to point B in a 2D or 3D plane.
 
-Precisamos ser capaz de operar os vetores.
+We need to be able to operate on vectors.
 
-Normalizar um vetor envolve limitar o seu módulo/tamanho 1 e manter a sua posição. Isso pode ser útil em outras operações como cálculo de distância ou clusteting.
+Normalizing a vector involves scaling its magnitude/size to 1 while retaining its direction. This can be useful for other operations such as distance calculation or clustering.
 
-A fórmula para produto vetorial é dada por: 
+The formula for the cross product is given by:
 ![image](image_2.png)
 
-Para implementação do cálculo foram abordados os seguintes passos:
+To implement the calculation, the following steps were taken:
 
-- Criar lista vazia "new result"
-- Interar sobre o vetor "result"
-- A cada interação somar o valors anterior com o seguinte
-- Guardar o valor dessa forma em "new_result"
-- Mostrar "new_result"
+- Create an empty list called `new_result`
+- Iterate over the vector `result`
+- In each iteration, add the previous value to the next one
+- Store this result in `new_result`
+- Display `new_result`
 
-Para implementar o cálculo da magnitude de um vetor:
+To calculate the magnitude of a vector:
 
-### Problema
-- Interar sobre os elementos do vetor
-- Elevar cada um dele ao quadrado
-- Somar os elementos
-- Tirar a raiz quadrada do valor obtido
+### Steps
+- Iterate over the vector elements
+- Square each element
+- Sum the squared values
+- Take the square root of the resulting value
 
-### Recursos
-- for loop
-- math.Pow(2, 10)
-- append
+### Resources
+- `for` loop
+- `math.Pow(2, 10)`
+- `append`
 
-### Plano
-- Interar sobre o vetor v1 [x]
-- Elevar cada um deles[x] ao quadrado 
-- Guardar em outro vetor [x]
-- Somar os valores desse novo vetor [x]
+### Plan
+- Iterate over the vector `v1[x]`
+- Square each `v1[x]`
+- Store the squared values in another vector `[x]`
+- Sum the values in this new vector `[x]`
 
-## Lins Úteis
-- [Tour for Go](https:-go.dev/tour/moretypes/6)
-- [Vector Representation in Go](https:-www.netguru.com/blog/vector-operations-in-go)
-- [Vector Normalization](https:-www.khanacademy.org/computing/computer-programming/programming-natural-simulations/programming-vectors/a/vector-magnitude-normalization)
-- [OOP in Golang](https:-www.tutorialspoint.com/golang-program-to-create-a-class-and-object#:~:text=Structs%20%E2%88%92%20Go%20language%20does%20not,same%20or%20different%20data%20type.)
-- [Machine Learning with Go: Matrices and Vectors| packtpub.com
-](https:-www.youtube.com/watch?v=rzYzsdKImEs)
-- [Sum Vector JS Solution](https:-spellbox.app/spells/javascript/two-functions-that-make-sum-two-vectors-and-make-their-dot-product-in-javascript)
-- [Golang - Apeend Func](https:-dev.to/andyhaskell/a-closer-look-at-go-s-slice-append-function-3bhb)
-- [Passing & Returning Array To & From a Function | Go Tutorial](https:-www.youtube.com/watch?v=_mVLhNgQ7_8)
-- [The vector product](https:-www.mathcentre.ac.uk/resources/uploaded/mc-ty-vectorprod-2009-1.pdf)
+## Useful Links
+- [Tour for Go](https://go.dev/tour/moretypes/6) ![Go Tour](https://img.shields.io/badge/Go_Tour-%2300ADD8.svg?style=flat-square&logo=go)
+- [Vector Representation in Go](https://www.netguru.com/blog/vector-operations-in-go) ![Netguru Blog](https://img.shields.io/badge/Netguru_Blog-%2300B9F2.svg?style=flat-square&logo=netguru)
+- [Vector Normalization](https://www.khanacademy.org/computing/computer-programming/programming-natural-simulations/programming-vectors/a/vector-magnitude-normalization) ![Khan Academy](https://img.shields.io/badge/Khan_Academy-%23F2B000.svg?style=flat-square&logo=khan-academy)
+- [OOP in Golang](https://www.tutorialspoint.com/golang-program-to-create-a-class-and-object#:~:text=Structs%20%E2%88%92%20Go%20language%20does%20not,same%20or%20different%20data%20type.) ![TutorialsPoint](https://img.shields.io/badge/TutorialsPoint-%236D0F8C.svg?style=flat-square&logo=tutorialspoint)
+- [Machine Learning with Go: Matrices and Vectors | packtpub.com](https://www.youtube.com/watch?v=rzYzsdKImEs) ![PacktPub](https://img.shields.io/badge/PacktPub-%23B4006F.svg?style=flat-square&logo=youtube)
+- [Sum Vector JS Solution](https://spellbox.app/spells/javascript/two-functions-that-make-sum-two-vectors-and-make-their-dot-product-in-javascript) ![Spellbox](https://img.shields.io/badge/Spellbox-%23F8E71C.svg?style=flat-square&logo=spellbox)
+- [Golang - Append Function](https://dev.to/andyhaskell/a-closer-look-at-go-s-slice-append-function-3bhb) ![Dev.to](https://img.shields.io/badge/Dev.to-%23F7DF1E.svg?style=flat-square&logo=dev)
+- [Passing & Returning Array To & From a Function | Go Tutorial](https://www.youtube.com/watch?v=_mVLhNgQ7_8) ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat-square&logo=youtube)
+- [The Vector Product](https://www.mathcentre.ac.uk/resources/uploaded/mc-ty-vectorprod-2009-1.pdf) ![Math Centre](https://img.shields.io/badge/Math_Centre-%2318C5C5.svg?style=flat-square&logo=math)
